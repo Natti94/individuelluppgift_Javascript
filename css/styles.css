@@ -1,0 +1,22 @@
+.ändra, .radera
+{
+display: none;
+float: inline-start;
+}
+
+.registeredName, .registeredPhone
+{
+display: none;
+float: inline-start;
+}
+
+.registeredNameDisplay, .registeredPhoneDisplay
+{
+display: none;
+float: inline-start;
+}
+
+.errorMessage 
+{
+display: none;
+}
