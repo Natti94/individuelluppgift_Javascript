@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kunskapskontroll - Kontaktlista applikation</title>
+  </head>
+  <body>
+    <script src="main.js"></script>
+    <input type="text" id="nameFieldType" placeholder="Namn" />
+    <input type="text" id="phoneFieldType" placeholder="Telefon" />
+    <button onclick="registerUser()">Skapa Kontakt</button>
+    <button onclick="removeAllUser()">Radera Alla Kontakter</button>
+    <h2>Kontaktlista</h2>
+    <div id="userList"></div>
+    <h2 id="usersDeleted" style="display: none; color: red">
+      Alla kontakter har raderats!
+    </h2>
+    <h2 id="editingError" style="display: none; color: red">
+      Du kan inte lämna fältet tomt!
+    </h2>
+    <h2 id="errorMessageNamePhone" style="display: none; color: red">
+      Fyll i båda fälten för Namn & Telefon!
+    </h2>
+    <h2 id="errorMessageName" style="display: none; color: red">
+      Fyll fältet för Namn!
+    </h2>
+    <h2 id="errorMessagePhone" style="display: none; color: red">
+      Fyll i fältet för Telefon!
+    </h2>
+  </body>
+</html>
